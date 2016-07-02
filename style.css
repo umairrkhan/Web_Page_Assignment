@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    background: url(./images/background.jpg) no-repeat fixed;
+    padding: 5px 10px;
+    margin: 0px;
+}
+/***************** Header CSS ***********************/
+header img{
+    height: 15em; 
+}
+header img#verse {
+    height: 4em;
+}
+header div#absolutePara img{
+    height: 13em;
+}
+header img:first-child{
+    float: left;   
+}
+header img:last-child{
+    float: right;    
+}
+header div#absolutePara{
+    position: absolute;
+    top: 90px;
+    left: 40%;
+}
+/***************** Header CSS End ***********************/
+
+/***************** Main-Section CSS ***********************/
