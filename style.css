@@ -2,10 +2,14 @@ body{
     text-align: center;
     font-family: Verdana, Helvetica, Arial, sans-serif;
     background: url(./images/background.jpg) no-repeat fixed;
+   
     padding: 5px 10px;
     margin: 0px;
 }
 /***************** Header CSS ***********************/
+header{
+    height: 255px;
+}
 header img{
     height: 15em; 
 }
@@ -29,3 +33,149 @@ header div#absolutePara{
 /***************** Header CSS End ***********************/
 
 /***************** Main-Section CSS ***********************/
+
+
+/*************************** Aside Content **********************************/
+section#asideContent{
+    position: absolute;
+    top: 260px;
+   
+    width: 19%;
+ 
+     font-size: small;
+    z-index: 99;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+     padding: 0px;
+}
+section#asideContent div{
+    
+    padding: 1px ;
+    margin-bottom: 5px;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    background-color: rgba(0,0,0,0.5);
+}
+
+section#asideContent div h2{
+    color: #fff;
+    text-shadow:  1px 1px 2px #333;
+    
+} 
+
+section#asideContent div ul{
+    
+     text-align: left;
+}
+section#asideContent ul li{
+    /*padding: 5px 10px;*/
+    border: 1px outset #222;
+    margin-bottom: 2px;
+    
+
+
+}
+section#asideContent ul li{
+    box-shadow: inset 0px 0px 1px 1px #333;
+}
+
+
+
+section#asideContent ul li a{
+    /*padding: 4px 10px;*/
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+section#asideContent ul li a:hover{
+    color: #222;
+    background-color: rgb(255,255,255);
+}
+section#asideContent ul li a span, section#asideContent div#aside_Mark span{
+    display: inline-block;
+    width: 85%;
+    padding: 5px 5px;
+    text-align: left;
+    
+}
+ /*************************************************************/
+
+ section#asideContent div#video_botton{
+     border-radius: 20px;
+ }
+ section#asideContent div#video_botton a{
+     text-decoration: none;
+ }
+ /*************************************************************/
+ section#asideContent div#aside_Mark span{
+     width: 72%;
+ }
+ section#asideContent div#aside_Mark{
+     /*padding-left: 12%;*/
+     color: #fff;   
+ }
+  /*************************************************************/
+   section#asideContent div#social_Link{
+       padding: 5px 0px;
+      
+   }
+  section#asideContent div#social_Link span{
+     /*width: 60%;*/
+     
+  }
+   
+  section#asideContent div#social_Link a{
+      text-decoration: none;
+      color: #fff;
+      display: inline-block;
+      width: 60%;
+      height: 32px;
+      margin: 2px 0px;
+      padding-left: 10%;
+      line-height: 32px;
+      
+}
+  
+
+section#asideContent div#social_Link a#link_1{
+    background: url(./images/book2.png) no-repeat 5px;
+    
+}
+section#asideContent div#social_Link a#link_2{
+    background: url(./images/book1.png) no-repeat 5px;
+}
+section#asideContent div#social_Link a#link_3{
+    background: url(./images/notepad3.png) no-repeat 5px;
+}
+
+
+section#asideContent div#social_Link a#link_1:hover{
+    background: url(./images/h_book.png) no-repeat #fff 5px;
+    color: #000;
+}
+section#asideContent div#social_Link a#link_2:hover{
+    background: url(./images/h_book1.png) no-repeat #fff 5px;
+    color: #000;
+}
+section#asideContent div#social_Link a#link_3:hover{
+    background: url(./images/h_notepad.png) no-repeat #fff 5px;
+    color: #000;
+}
+
+/*************************************************************/
+
+section#asideContent div#social_Link2{
+    padding-bottom: 10px;
+}
+section#asideContent div#social_Link2 span a{
+    padding: 0px 5px;
+}
+/*************************** Aside Content End **********************************/
+
+/**************************** Main Content *********************************/
