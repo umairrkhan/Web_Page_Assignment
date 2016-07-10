@@ -2,8 +2,9 @@ body{
     text-align: center;
     font-family: Verdana, Helvetica, Arial, sans-serif;
     background: url(./images/background.jpg) no-repeat fixed;
-   
-    padding: 5px 10px;
+    color: #fff; 
+    font-size: medium;
+    padding: 0px 5px;
     margin: 0px;
 }
 /***************** Header CSS ***********************/
@@ -18,6 +19,7 @@ header img#verse {
 }
 header div#absolutePara img{
     height: 13em;
+   
 }
 header img:first-child{
     float: left;   
@@ -27,8 +29,9 @@ header img:last-child{
 }
 header div#absolutePara{
     position: absolute;
-    top: 90px;
+    top: 64px;
     left: 40%;
+     z-index: 3;
 }
 /***************** Header CSS End ***********************/
 
@@ -64,6 +67,9 @@ section#asideContent div{
 section#asideContent div h2{
     color: #fff;
     text-shadow:  1px 1px 2px #333;
+    /*background-color: rgba(14,155,173,0.2);
+    margin: 0px;
+    padding: 15px 0px;*/
     
 } 
 
@@ -179,3 +185,62 @@ section#asideContent div#social_Link2 span a{
 /*************************** Aside Content End **********************************/
 
 /**************************** Main Content *********************************/
+section#Content{
+   position: relative;
+    width: 80%;
+    /*height: 100px;*/
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 20%;
+    border-top-left-radius: 20px;
+
+    border: 2px double #999;
+    border-right: none;
+    border-bottom: none;
+}
+section#Content div#mainContent{
+    width: 74%;
+}
+section#Content div#mainContent article{
+    clear: both;
+}
+section#Content div#mainContent article div{
+    padding: 10px;
+    text-align: left;
+    line-height: 18px;
+    font-size: .9em;
+}
+section#Content div#mainContent article span.readMore{
+    color: #999;
+}
+section#Content div#mainContent article h1{
+    background-color: rgba(14,155,173,0.2);
+    padding: 15px 0px;
+    margin: 0px;
+}
+section#Content div#mainContent article img{
+    float: right;
+}
+section#Content div#mainContent article a{
+    color: darkgoldenrod;
+    display: inline-block;
+}
+section#Content div#mainContent article a.indent{
+    text-indent: 5%;
+}
+section#Content div#mainContent footer{
+    padding: 30px 0px 5px 0px ;
+    font-size: small;
+}
+section#Content div#mainContent article:first-child h1:first-child{
+    border-top-left-radius: 20px;
+}
+/**************************** Main Content Aside *********************************/
+section#Content div#mainContent_aside{
+    position: absolute;
+    width: 25%;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(45,66,88);
+
+    height: 100px;
+}
