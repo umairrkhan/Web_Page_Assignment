@@ -11,7 +11,7 @@ body{
 header{
     height: 255px;
 }
-header img{
+/*header img{
     height: 15em; 
 }
 header img#verse {
@@ -20,7 +20,7 @@ header img#verse {
 header div#absolutePara img{
     height: 13em;
    
-}
+}*/
 header img:first-child{
     float: left;   
 }
@@ -41,12 +41,12 @@ header div#absolutePara{
 /*************************** Aside Content **********************************/
 section#asideContent{
     position: absolute;
-    top: 260px;
+    top: 255px;
    
     width: 19%;
  
      font-size: small;
-    z-index: 99;
+    
 }
 ul{
     list-style-type: none;
@@ -202,6 +202,7 @@ section#Content div#mainContent{
 }
 section#Content div#mainContent article{
     clear: both;
+    /*padding-bottom:5px; */
 }
 section#Content div#mainContent article div{
     padding: 10px;
@@ -219,6 +220,7 @@ section#Content div#mainContent article h1{
 }
 section#Content div#mainContent article img{
     float: right;
+    margin-left: 1%;
 }
 section#Content div#mainContent article a{
     color: darkgoldenrod;
@@ -238,9 +240,72 @@ section#Content div#mainContent article:first-child h1:first-child{
 section#Content div#mainContent_aside{
     position: absolute;
     width: 25%;
-    top: 0px;
+    top: 8px;
     right: 0px;
-    background-color: rgb(45,66,88);
+    font-size: .9em;
+    background-color: rgba(140,114,123,.2);
+  
 
-    height: 100px;
+    /*background-color:  #22414f;
+    opacity: 0.7;*/
+    
+
 }
+section#Content div#mainContent_aside div{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+section#Content div#mainContent_aside div span{
+    color:  cornflowerblue;
+    font-weight: bold;
+    
+}
+section#Content div#mainContent_aside li{
+    display: inline-block;
+    padding: 5px;
+    width: 40%;
+    background-color: rgba(140,114,123,.4);
+    margin: 5px;
+    
+}
+section#Content div#mainContent_aside li.logoLink{
+     background-color: rgba(140,114,123,0);
+
+}
+section#Content div#mainContent_aside a{
+    color: #dddcdc;
+    display: inline-block;
+    
+}
+section#Content div#mainContent_aside a:hover{
+    color: #fff;
+}
+section#Content div#mainContent_aside div:first-child{
+    background-color: rgba(240,14,123,0);
+    width: initial;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border: none;
+}
+section#Content div#mainContent_aside > div{
+   width: 95%;
+   margin: auto;
+   border:1px solid rgba(220,14,123,.4);
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+  
+}
+section#Content div#mainContent_aside div{
+    margin-bottom: 5px;
+}
+section#Content div#mainContent_aside>div>h2{
+    background-color:rgba(220,14,123,.4);
+    border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   margin: 0px 0px 5px 0px; 
+   font-size: 1.3em; 
+   padding: 10px 0px;
+   
+}
+
+
