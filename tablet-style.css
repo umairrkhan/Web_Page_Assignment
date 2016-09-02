@@ -1,4 +1,4 @@
-body{
-    background-image: none;
-    background-color: red;
+div#underConstruction{   
+    display: initial;
+    background: rgba(255,0,0,.9);
 }
